@@ -1,3 +1,11 @@
 header {
-    background-color: aqua;
+    background-color: #61a6ab;
+}
+
+article {
+    height: 80vh;
+}
+
+.dudsJewelryLogo {
+    height: 10rem;
 }
