@@ -1,4 +1,11 @@
-header {
+header{
+    background-color: #61a6ab;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+footer {
     background-color: #61a6ab;
 }
 
@@ -27,7 +34,14 @@ ul {
     list-style-type: none;
 }
 
-h1 {
-    font-weight: bold;
-    font-family: 'Alex Brush', cursive;
+.imgCar1, .imgCar2, .imgCar3 {
+    object-fit: cover;
+    width: 100%;
+    height: 90vh; /* This maintains the image's aspect ratio */
+}
+
+.card-img-top {
+    object-fit: cover;
+    width: 100%;
+    height: 40vh;
 }
