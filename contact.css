@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Bitter', serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.about-us-story p {
+    width: 90%; 
+    margin: 0px auto;
+    padding-top: 90px;
+    font-size: 24px;
+}
+
+header{
+    background-color: #61a6ab;
+    /* position: sticky;
+    top: 0;
+    z-index: 3; */
+}
+
+nav {
+    height: 80px;
+    background-color: #61a6ab;
+}
+
+nav img {
+    width: 60px;
+    position: absolute;
+    top: 7px;
+    left: 12%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+    color: white;
+    font-size: 18px;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+
+.btn-dropdown {
+    background-color: #61a6ab;
+    color: #fff;
+    font-size: 18px;
+}
+
+.icon-fb, .icon-insta, .icon-x {
+    color: white;
+    padding-top: 60px;
+    font-size: 40px;
+}
+
+.qlinks {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+hr {
+    width: 100px;
+    border: none; /* Remove the default border */
+    border-top: 5px solid #333; /* Set a thicker border with your desired color */
+    margin: 5px auto; /* Adjust the margin to control the vertical spacing around the <hr> */
+    height: 0; /* Reset the height */
+}
+
+footer {
+    background-color: #61a6ab;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+footer h1 {
+    font-size: 15px;
+}
+
+footer a img {
+    height: 5rem;
+}
+
+/* @media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 425px) {
+
+} */
