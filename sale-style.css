@@ -3,20 +3,16 @@
     padding: 0;
 }
 
-h1, h4, h2 {
+a {
+    text-decoration: none;
+}
+
+h1, h2 {
     font-family: 'Bitter', serif;
 }
 
 ul {
     list-style: none;
-}
-
-hr {
-    width: 85%;
-    border: none; /* Remove the default border */
-    border-top: 5px solid #000; /* Set a thicker border with your desired color */
-    margin: 5px auto; /* Adjust the margin to control the vertical spacing around the <hr> */
-    height: 0; /* Reset the height */
 }
 
 header{
@@ -77,9 +73,16 @@ nav ul li a {
     font-weight: bold;
 }
 
-.cart-img {
-    width: 150px;
-    height: 150px;
+hr {
+    width: 100px;
+    border: none; /* Remove the default border */
+    border-top: 5px solid #333; /* Set a thicker border with your desired color */
+    margin: 5px auto; /* Adjust the margin to control the vertical spacing around the <hr> */
+    height: 0; /* Reset the height */
+}
+
+.card-img-top {
+    height: 45vh;
 }
 
 footer {
