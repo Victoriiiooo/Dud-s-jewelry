@@ -80,6 +80,9 @@ nav ul li a {
 .cart-img {
     width: 150px;
     height: 150px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    box-shadow: 2px 3px #000;
 }
 
 footer {
