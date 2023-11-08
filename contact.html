@@ -38,47 +38,36 @@
     <body>
         <div class="container-fluid pt-4 pb-4">
             <div class="row">
-                <div class="col" style="border: 2px solid #000; border-radius: 20px; padding: 20px; margin: 30px; background-color: #61a6ab; color: #000; font-size: 20px; font-weight: 600; box-shadow: 5px 10px #000;">
+                <div class="col">
                     <div class="row g-3">
                         <div class="col">
-                            <form action="">
-                                <div class="col-12">
-                                    <h4>KINDLY SEND US A MESSAGE.</h4>
+                            <form action="" style="padding: 50px;">
+                                <h1 class="p-3">SEND US A MESSAGE</h1>
+                                <div class="col-12 p-3">
+                                    <input type="text" class="form-control" name="firstname" placeholder="Your name*">
                                 </div>
-                                <div class="col-12">
-                                    <label for="firstname" class="m-2">FIRST NAME</label>
-                                    <input type="text" class="form-control" name="firstname">
+                                <div class="col-12 p-3">
+                                    <input type="email" class="form-control" name="email" placeholder="Your email address*">
                                 </div>
-                                <div class="col-12">
-                                    <label for="lastname" class="m-2">LAST NAME</label>
-                                    <input type="text" class="form-control" name="lastname">
+                                <div class="col-12 p-3">
+                                    <input type="number" class="form-control" name="phone" placeholder="Contact phone number">
                                 </div>
-                                <div class="col-12">
-                                    <label for="email" class="m-2">E-MAIL</label>
-                                    <input type="email" class="form-control" name="email">
+                                <div class="col-12 p-3">
+                                    <textarea name="comment" class="form-control" id="" cols="30" rows="3" placeholder="Your message"></textarea>
                                 </div>
-                                <div class="col-12">
-                                    <label for="phone" class="m-2">PHONE</label>
-                                    <input type="number" class="form-control" name="phone">
-                                </div>
-                                <div class="col-12">
-                                    <label for="subject" class="m-2">SUBJECT</label>
-                                    <input type="text" class="form-control" name="subject">
-                                </div>
-                                <div class="col-12">
-                                    <label for="comment" class="m-2">COMMENTS</label>
-                                    <textarea name="comment" class="form-control" id="" cols="30" rows="5"></textarea>
-                                </div>
-                                <div class="col-12 mt-4">
-                                    <button type="submit" class="btn btn-primary w-100">SEND</button>
+                                <div class="col-12 p-3">
+                                    <button type="submit" class="btn text-end" style="background-color: #61a6ab; color: #fff;">Send Message</button>
                                 </div>
                             </form>
                         </div>
                     </div>
                 </div>
-                <div class="col text-center">
-                    <h1 class="m-5">Contact Us</h1>
-                    <img src="contact-img.jpg" alt="" style="border: 2px solid #fff; border-radius: 30px; box-shadow: 5px 10px #888888;">
+                <div class="col" style="padding-top: 70px;">
+                    <h4>DIRECT CONTACT</h4>
+                    <p>+63 945 567 3154</p>
+                    <p>dudsjewelry@gmail.com</p>
+                    <h4>FACEBOOK ACCOUNT</h4>
+                    <h6>Dud's Jewelry</h6>
                 </div>
             </div>
         </div>
@@ -137,25 +126,5 @@
             </div>
         </div>
     </footer>
-    <script>
-        (() => {
-        'use strict'
-
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        const forms = document.querySelectorAll('.needs-validation')
-
-        // Loop over them and prevent submission
-        Array.from(forms).forEach(form => {
-            form.addEventListener('submit', event => {
-            if (!form.checkValidity()) {
-                event.preventDefault()
-                event.stopPropagation()
-            }
-
-            form.classList.add('was-validated')
-            }, false)
-        })
-        })()
-    </script>
 </body>
 </html>
