@@ -57,18 +57,6 @@ nav ul li a {
     font-size: 18px;
 }
 
-.icon-fb, .icon-insta, .icon-x {
-    color: white;
-    padding-top: 60px;
-    font-size: 40px;
-}
-
-.qlinks {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
 .carousel-inner img {
     max-width: 100%;
     height: 660px;
@@ -98,15 +86,14 @@ hr {
     border: none; /* Remove the default border */
     border-top: 5px solid #333; /* Set a thicker border with your desired color */
     margin: 5px auto; /* Adjust the margin to control the vertical spacing around the <hr> */
-    height: 0; /* Reset the height */
+    height: 0; /* Reset the height */   
 }
 
 .testimonial-card {
     padding: 0px 15px;
-    align-items:center ;
     background-color: #59989D;
     width: 100%;
-    height: 40vh;
+    height: 45vh;
     border: 2px solid #fff;
     box-shadow: 2px 3px #000;
     border-radius: 50px ;
@@ -114,12 +101,16 @@ hr {
 
 .testimonial-card h5, .testimonial-card p{
     color: white;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .testimonial-img {
     margin-top: 30px;
-    height: 100px; 
-    width: 100px;
+    margin-bottom: 5px;
+    height: 120px; 
+    width: 120px;
+    border: 4px solid #fff;
     border-radius: 50%;
     align-self: center;
 }
@@ -129,16 +120,17 @@ hr {
     background-color: #EBEDEF;
     overflow: hidden;
     border-radius: 45px;
-    width: 100%;
-    height: 50vh;
+    width: 95%;
+    height: 55vh;
     box-shadow: 5px 10px #888888;
 }
 
 .card-jewelry img{
-    padding: 30px;
-    width: 100%;
-    height: 200px;
+    margin: 20px auto;
+    width: 80%;
+    height: 30vh;
     justify-content: center;
+    border: 1px solid #000;
     border-radius: 45px;
 }
 
@@ -147,7 +139,7 @@ footer {
 }
 
 footer p {
-    font-size: 15px;
+    font-size: medium;
 }
 
 footer h1 {
@@ -155,17 +147,204 @@ footer h1 {
 }
 
 footer a img {
-    height: 5rem;
+    height: 7rem;
 }
 
-/* @media only screen and (max-width: 1024px) {
+.icon-fb, .icon-insta, .icon-x {
+    color: white;
+    padding-top: 60px;
+    font-size: 40px;
+}
 
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+
+@media only screen and (max-width: 1024px) {
+    nav ul li a {
+        list-style: none;
+        text-decoration: none;
+        position: relative;
+        color: white;
+        font-size: 15px;
+        padding: 5px 0;
+        text-transform: uppercase;
+    }
+
+    .card-jewelry {
+        padding: 0px 15px;
+        background-color: #EBEDEF;
+        overflow: hidden;
+        border-radius: 45px;
+        width: 95%;
+        height: 60vh;
+        box-shadow: 5px 10px #888888;
+    }
+
+    .cb-items h1 {
+        font-size: small;
+    }
+
+    .cb-items p {
+        font-size: small;
+    }
+
+    .testimonial-card {
+        padding: 0px 15px;
+        background-color: #59989D;
+        width: 100%;
+        height: 55vh;
+        border: 2px solid #fff;
+        box-shadow: 2px 3px #000;
+        border-radius: 50px ;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .testimonial-card h5, .testimonial-card p{
+        color: white;
+        font-size: medium;
+        text-align: justify;
+        text-justify: inter-word;
+    }
 }
 
 @media only screen and (max-width: 768px) {
+    nav ul li a {
+        list-style: none;
+        text-decoration: none;
+        position: relative;
+        color: white;
+        font-size: 12px;
+        padding: 5px 0;
+        text-transform: uppercase;
+        display: none;
+    }
 
+    .card-jewelry {
+        padding: 0px 15px;
+        background-color: #EBEDEF;
+        overflow: hidden;
+        border-radius: 45px;
+        width: 100%;
+        height: 60vh;
+        box-shadow: 5px 10px #888888;
+    }
+
+    .cb-items h1 {
+        font-size: small;
+    }
+
+    .cb-items p {
+        font-size: small;
+    }
+
+    .testimonial-card {
+        padding: 0px 15px;
+        background-color: #59989D;
+        width: 100%;
+        height: 55vh;
+        border: 2px solid #fff;
+        box-shadow: 2px 3px #000;
+        border-radius: 50px ;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .testimonial-card h5, .testimonial-card p{
+        color: white;
+        font-size: medium;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: small;
+    }
+    
+    footer p {
+        font-size: 12px;
+    }
+    
+    footer h4 {
+        font-size: medium;
+    }
+
+    footer h6 {
+        font-size: small;
+    }
+    
+    footer a img {
+        height: 4rem;
+    }
+
+    footer ul {
+        padding: 0px;
+    }
+    
+    footer ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: medium;
+    }
+
+    .icon-fb, .icon-insta, .icon-x {
+        color: white;
+        padding-top: 60px;
+        font-size: 20px;
+    }
+    
+    .qlinks {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: x-small;
+    }
 }
 
-@media only screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
+    .carousel-inner img {
+        max-width: 100%;
+        height: 575px;
+    }
 
-} */
+    footer p {
+        font-size: 15px;
+    }
+
+    footer ul {
+        padding: 0px;
+    }
+
+    footer ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: xx-small;
+    }
+    
+    footer h4 {
+        font-size: medium;
+    }
+
+    footer h6 {
+        font-size: xx-small;
+    }
+    
+    footer a img {
+        height: 4rem;
+    }
+
+    .icon-fb, .icon-insta, .icon-x {
+        color: white;
+        text-align: center;
+        padding-top: 60px;
+        font-size: 10px;
+        display: none;
+    }
+    
+    .qlinks {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+}

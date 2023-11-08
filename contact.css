@@ -100,14 +100,134 @@ footer a img {
     height: 5rem;
 }
 
-/* @media only screen and (max-width: 1024px) {
+footer p {
+    font-size: medium;
+}
 
+footer h1 {
+    font-size: 15px;
+}
+
+footer a img {
+    height: 7rem;
+}
+
+.icon-fb, .icon-insta, .icon-x {
+    color: white;
+    padding-top: 60px;
+    font-size: 40px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+
+@media only screen and (max-width: 1024px) {
+    nav ul li a {
+        list-style: none;
+        text-decoration: none;
+        position: relative;
+        color: white;
+        font-size: 15px;
+        padding: 5px 0;
+        text-transform: uppercase;
+    }
 }
 
 @media only screen and (max-width: 768px) {
+    nav ul li a {
+        list-style: none;
+        text-decoration: none;
+        position: relative;
+        color: white;
+        font-size: 12px;
+        padding: 5px 0;
+        text-transform: uppercase;
+        display: none;
+    }
+    
+    footer p {
+        font-size: 12px;
+    }
+    
+    footer h4 {
+        font-size: medium;
+    }
 
+    footer h6 {
+        font-size: small;
+    }
+    
+    footer a img {
+        height: 4rem;
+    }
+
+    footer ul {
+        padding: 0px;
+    }
+    
+    footer ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: medium;
+    }
+
+    .icon-fb, .icon-insta, .icon-x {
+        color: white;
+        padding-top: 60px;
+        font-size: 20px;
+    }
+    
+    .qlinks {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: x-small;
+    }
 }
 
-@media only screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
 
-} */
+    footer p {
+        font-size: 15px;
+    }
+
+    footer ul {
+        padding: 0px;
+    }
+
+    footer ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: xx-small;
+    }
+    
+    footer h4 {
+        font-size: medium;
+    }
+
+    footer h6 {
+        font-size: xx-small;
+    }
+    
+    footer a img {
+        height: 4rem;
+    }
+
+    .icon-fb, .icon-insta, .icon-x {
+        color: white;
+        text-align: center;
+        padding-top: 60px;
+        font-size: 10px;
+        display: none;
+    }
+    
+    .qlinks {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+}
