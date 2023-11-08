@@ -16,6 +16,8 @@ ul {
     margin: 0px auto;
     padding-top: 90px;
     font-size: 24px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 header{
@@ -100,14 +102,74 @@ footer a img {
     height: 5rem;
 }
 
-/* @media only screen and (max-width: 1024px) {
-
+/* Laptop Screen */
+@media only screen and (max-width: 1024px){
+    .about-us-story p {
+        width: 90%; 
+        margin: 0px auto;
+        padding-top: 90px;
+        font-size: 20px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
 }
 
+/* Tablet */
 @media only screen and (max-width: 768px) {
+    nav ul li a {
+        list-style: none;
+        text-decoration: none;
+        position: relative;
+        color: white;
+        font-size: 10px;
+        padding: 5px 0;
+        text-transform: uppercase;
+    }
 
+    .about-us-story p {
+        width: 90%; 
+        margin: 0px auto;
+        padding-top: 90px;
+        font-size: 17px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+    .icon-fb, .icon-insta, .icon-x {
+        color: white;
+        padding-top: 60px;
+        font-size: 20px;
+    }
+
+    .qlinks {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: small;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+    
+    footer h1, h4 {
+        font-size: large;
+    }
+    
+    footer a img {
+        height: 4rem;
+    }
+
+    footer h6 {
+        font-size: small;
+    }
 }
 
+/* Mobile */
 @media only screen and (max-width: 425px) {
 
-} */
+}
