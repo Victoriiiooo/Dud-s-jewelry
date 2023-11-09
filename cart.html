@@ -17,20 +17,52 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col">
-                    <a href="index.html">
-                        <img src="dudsJewelryLogo.png" alt="logo">
-                    </a>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="our-products.html">Our Products</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="new-arrival.html">New</a></li>
-                        <li><a href="sale-item.html">Sale</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="#"><i class="bi bi-search"></i></a></li>
-                        <li><a href="cart.html" style="color: black;"><i class="bi bi-bag"></i></a></li>
-                    </ul>
+                    <nav class="navbar navbar-expand-xl">
+                        <div class="container">
+                            <a href="index.html">
+                                <img src="dudsJewelryLogo.png" alt="logo">
+                            </a>
+                            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header text-white border-bottom">
+                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">DUD'S JEWELRY</h5>
+                                <button type="button" class="btn-close btn-close-white shadow-none border-0 " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end align-items-center fs-5 flex-grow-1 pe-3">
+                                    <li class="nav-item mx-2">
+                                        <a class="nav-link text-white" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item mx-2">
+                                        <a class="nav-link text-white" href="our-products.html">Our Products</a>
+                                    </li>
+                                    <li class="nav-item mx-2">
+                                        <a class="nav-link text-white" href="services.html">Services</a>
+                                    </li>
+                                    <li class="nav-item mx-2">
+                                        <a class="nav-link text-white" href="new-arrival.html">New</a>
+                                    </li>
+                                    <li class="nav-item mx-2">
+                                        <a class="nav-link text-white" href="sale-item.html">Sale</a>
+                                    </li>
+                                    <li class="nav-item mx-2">
+                                        <a class="nav-link text-white" href="about.html">About</a>
+                                    </li>
+                                    <li class="nav-item mx-2">
+                                        <a class="nav-link text-white" href="contact.html">Contact</a>
+                                    </li>
+                                    <li class="nav-item mx-2">
+                                        <a class="nav-link text-white" href="#"><i class="bi bi-search"></i></a>
+                                    </li>
+                                    <li class="nav-item mx-2">
+                                        <a class="nav-link" href="cart.html" style="color: black; font-weight: bold;"><i class="bi bi-bag"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
             </div>
         </div>
@@ -49,84 +81,90 @@
                     </div>
                 </div>
                 <div class="container-fluid" style="padding: 50px 0px 0px 0px;">
-                    <div class="row">
-                        <div class="col-1"></div>
-                        <div class="col-6">
-                            <p>Product</p>
-                        </div>
-                        <div class="col-1">
-                            <p>Price</p>
-                        </div>
-                        <div class="col-2">
-                            <p>Quantity</p>
-                        </div>
-                        <div class="col-1">
-                            <p>Total</p>
+                    <div class="cart-box-header">
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-6">
+                                <p>Product</p>
+                            </div>
+                            <div class="col-1">
+                                <p>Price</p>
+                            </div>
+                            <div class="col-2">
+                                <p>Quantity</p>
+                            </div>
+                            <div class="col-1">
+                                <p>Total</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <hr>
                 <div class="container-fluid" style="padding: 30px 0 20px 0;">
-                    <div class="row">
-                        <div class="col-1"></div>
-                        <div class="col-1">
-                            <img src="bracelet-main-img.jpg" alt="bracelet picture" class="cart-img">
-                        </div>
-                        <div class="col-5">
-                            <h4 class="ps-5">Charm Bracelet</h4>
-                            <a href="#" class="ps-5" style="color: black; padding-top: 40px;">Remove</a>
-                        </div>
-                        <div class="col-1">
-                            <p>₱ 499.00</p>
-                        </div>
-                        <div class="col-2 ps-0">
-                            <input type="number" class="form-control w-50" id="inputPassword">
-                        </div>
-                        <div class="col-1">
-                            <p>₱ 499.00</p>
+                    <div class="cart-box">
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-4">
+                                <img src="bracelet-main-img.jpg" alt="bracelet picture" class="cart-img">
+                            </div>
+                            <div class="col-2">
+                                <h4>Charm Bracelet</h4>
+                                <a href="#" style="color: black; padding-top: 40px;">Remove</a>
+                            </div>
+                            <div class="col-1 ps-0">
+                                <p>₱499.00</p>
+                            </div>
+                            <div class="col-2 ps-0 pe-0">
+                                <input type="number" class="form-control w-75" id="inputPassword">
+                            </div>
+                            <div class="col-1">
+                                <p>₱499.00</p>
+                            </div>
+                            <div class="col-1"></div>
                         </div>
                     </div>
                 </div>
                 <hr>
                 <div class="container-fluid" style="padding: 20px 0 0 0;">
-                    <div class="row">
-                        <div class="col-8"></div>
-                        <div class="col-2">
-                            <p>Subtotal</p>
+                    <div class="cart-box-total">
+                        <div class="row">
+                            <div class="col-8"></div>
+                            <div class="col-2">
+                                <p>Subtotal</p>
+                            </div>
+                            <div class="col-1">
+                                <p>₱ 499.00</p>
+                            </div>
+                            <div class="col-1"></div>
                         </div>
-                        <div class="col-1">
-                            <p>₱ 499.00</p>
-                        </div>
-                        <div class="col-1"></div>
                     </div>
                 </div>
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-8"></div>
-                        <div class="col-3">
+                        <div class="col-7"></div>
+                        <div class="col-4">
                             <p>Taxes and shipping calculated at checkout</p>
                         </div>
                         <div class="col-1"></div>
                     </div>
                 </div>
-                <div class="container-fluid" style="padding: 0px 0px 100px 0px;">
+                <div class="container mb-2">
                     <div class="row pt-2">
                         <div class="col-9"></div>
-                        <div class="col-2">
-                            <button class="btn btn-primary" onclick="window.location.href = 'cart.html';">Update</button>
-                            <button class="btn btn-dark" onclick="window.location.href = 'checkout.html';">checkout</button>
+                        <div class="col-3">
+                            <button class="btn btn-primary m-2" onclick="window.location.href = 'cart.html';">Update</button>
+                            <button class="btn btn-dark m-2" onclick="window.location.href = 'checkout.html';">checkout</button>
                         </div>
-                        <div class="col-1"></div>
+                        <!-- <div class="col-1"></div> -->
                     </div>
                 </div>
             </section>
         </main>
     </body>
     <footer>
-        <div class="container-fluid" style="height: 25vh;">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-1"></div>
-                <div class="col-2 pt-5">
+                <div class="col-2 pt-5 ps-5">
                     <a href="index.html">
                         <img class="dudsJewelryLogo" src="dudsJewelryLogo.png" alt="">
                     </a>
@@ -150,23 +188,22 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-2 pt-4">
+                <div class="col-2 pt-5">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="index.html" class="qlinks">Home</a></li>
-                        <li><a href="about.html" class="qlinks">About Us</a></li>
-                        <li><a href="contact.html" class="qlinks">Contact Us</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
-                <div class="col-3 pt-4">
+                <div class="col-5 pt-5">
                     <h4 style="text-align: center;">Subscribe Now!</h4>
                     <p>Subscribe to get specific offers, free giveaways, and once-in-a-lifetime deals. Send us your <b>email.</b></p>
                     <input type="text" class="form-control">
                 </div>
-                <div class="col-1"></div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid" >
             <div class="row">
                 <div class="col-3"></div>
                 <div class="col-6 p-4 text-center">

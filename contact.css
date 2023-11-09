@@ -37,25 +37,8 @@ nav img {
     left: 12%;
 }
 
-nav ul {
-    float: right;
-    margin-right: 25px;
-}
-
-nav ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    list-style: none;
-    text-decoration: none;
-    position: relative;
-    color: white;
-    font-size: 18px;
-    padding: 5px 0;
-    text-transform: uppercase;
+.sidebar {
+    background-color: #61a6ab;
 }
 
 .btn-dropdown {
@@ -125,29 +108,10 @@ footer ul li a {
     font-size: medium;
 }
 
-@media only screen and (max-width: 1024px) {
-    nav ul li a {
-        list-style: none;
-        text-decoration: none;
-        position: relative;
-        color: white;
-        font-size: 15px;
-        padding: 5px 0;
-        text-transform: uppercase;
-    }
-}
+/* @media only screen and (max-width: 1024px) {
+} */
 
 @media only screen and (max-width: 768px) {
-    nav ul li a {
-        list-style: none;
-        text-decoration: none;
-        position: relative;
-        color: white;
-        font-size: 12px;
-        padding: 5px 0;
-        text-transform: uppercase;
-        display: none;
-    }
     
     footer p {
         font-size: 12px;
